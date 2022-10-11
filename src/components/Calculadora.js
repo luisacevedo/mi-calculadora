@@ -1,10 +1,13 @@
 import React from "react";
 import '../stylesheets/Calculadora.css';
 import Boton from "./Boton";
+import BotonClear from "./BotonClear";
+import Pantalla from "./Pantalla";
 
 function Calculadora() {
   return (
     <div className="contenedor-calculadora">
+      <Pantalla />
       <div className='fila'>
         <Boton>1</Boton>
         <Boton>2</Boton>
@@ -30,7 +33,7 @@ function Calculadora() {
         <Boton>/</Boton>
       </div>
       <div className='fila'>
-          
+          <BotonClear>Clear</BotonClear>
       </div>
     </div>
   );

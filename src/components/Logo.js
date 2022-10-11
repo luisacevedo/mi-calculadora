@@ -1,8 +1,7 @@
 import '../stylesheets/Logo.css';
 import freeCodeCampLogo from '../pictures/FreeCodeCamp_logo.svg'
 
-function Logo() {
-  return (
+const Logo = () => (
     <div className='Logo'>
       <div className='freecodecamp-logo-contenedor'>
         <img 
@@ -12,6 +11,5 @@ function Logo() {
       </div>
     </div>
   );
-}
 
 export default Logo;

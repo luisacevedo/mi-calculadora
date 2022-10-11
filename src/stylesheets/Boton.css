@@ -15,6 +15,14 @@
   user-select: none;
 }
 
+.contenedor-boton:hover {
+  background-color: #5a01a7;
+}
+
 .operador {
-  background-color: #000;
+  background-color: #00471b;
+}
+
+.operador:hover {
+  background-color: #ff6600;
 }

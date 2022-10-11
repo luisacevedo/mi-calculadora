@@ -1,12 +1,11 @@
 import React from "react";
 import '../stylesheets/Boton.css';
 
-function Boton(props) {
-
-  const esOperador = valor => {
+const esOperador = valor => {
     return isNaN(valor) && (valor !== '.') && (valor !== '=');
   };
 
+function Boton(props) {
   return (
     <div 
       className={`contenedor-boton ${esOperador(props.children) ? 'operador' : ''}`}>
