@@ -1,0 +1,20 @@
+.Logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato,sans-serif;
+}
+
+.freecodecamp-logo-contenedor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.freecodecamp-logo {
+  height: 50px;
+}
