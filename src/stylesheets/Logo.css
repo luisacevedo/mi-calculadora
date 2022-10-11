@@ -16,5 +16,6 @@
 }
 
 .freecodecamp-logo {
-  height: 50px;
+  min-width: 400px;
+  max-height: 50px;
 }
